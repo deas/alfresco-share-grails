@@ -1,0 +1,40 @@
+<plugin name='alfresco-share' version='0.1' grailsVersion='2.0 &gt; *'>
+  <author>Andreas Steffan</author>
+  <authorEmail>a.steffan@contentreich.de</authorEmail>
+  <title>Alfresco Share Plugin</title>
+  <description>POC Plugin showing how grails can swallow alfresco share.
+</description>
+  <documentation>http://grails.org/plugin/alfresco-share</documentation>
+  <type>AlfrescoShareGrailsPlugin</type>
+  <resources>
+    <resource>AlfrescoShareUrlMappings</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='http://vcs.contentreich.de/m2/' url='http://vcs.contentreich.de/m2/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://maven.alfresco.com/nexus/content/groups/public/' url='http://maven.alfresco.com/nexus/content/groups/public/' />
+    <repository name='http://maven.alfresco.com/nexus/content/repositories/thirdparty/' url='http://maven.alfresco.com/nexus/content/repositories/thirdparty/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-bindings' version='0.6.0' />
+      <dependency group='org.codehaus.guessencoding' name='guessencoding' version='1.4' />
+      <dependency group='org.tuckey' name='urlrewritefilter' version='3.2.0' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-impl' version='0.6.0' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-api' version='0.6.0' />
+      <dependency group='org.springframework.extensions.surf' name='spring-surf' version='1.0.0_4.0.d' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-commons-impl' version='0.6.0' />
+      <dependency group='org.springframework.extensions.surf' name='spring-cmis-framework' version='1.0.0_4.0.d' />
+      <dependency group='org.alfresco.cmis.client' name='alfresco-opencmis-extension' version='0.2' />
+      <dependency group='org.springframework.extensions.surf' name='spring-surf-api' version='1.0.0_4.0.d' />
+      <dependency group='org.apache.abdera' name='abdera-extensions-html' version='0.4.0-incubating' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
