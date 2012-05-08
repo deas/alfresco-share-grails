@@ -21,16 +21,16 @@
   </repositories>
   <dependencies>
     <compile>
-      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-bindings' version='0.6.0' />
-      <dependency group='org.codehaus.guessencoding' name='guessencoding' version='1.4' />
-      <dependency group='org.tuckey' name='urlrewritefilter' version='3.2.0' />
-      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-impl' version='0.6.0' />
-      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-api' version='0.6.0' />
-      <dependency group='org.springframework.extensions.surf' name='spring-surf' version='1.0.0_4.0.d' />
-      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-commons-impl' version='0.6.0' />
       <dependency group='org.springframework.extensions.surf' name='spring-cmis-framework' version='1.0.0_4.0.d' />
-      <dependency group='org.alfresco.cmis.client' name='alfresco-opencmis-extension' version='0.2' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-bindings' version='0.6.0' />
+      <dependency group='org.springframework.extensions.surf' name='spring-surf' version='1.0.0_4.0.d' />
+      <dependency group='org.tuckey' name='urlrewritefilter' version='3.2.0' />
+      <dependency group='org.codehaus.guessencoding' name='guessencoding' version='1.4' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-api' version='0.6.0' />
       <dependency group='org.springframework.extensions.surf' name='spring-surf-api' version='1.0.0_4.0.d' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-client-impl' version='0.6.0' />
+      <dependency group='org.alfresco.cmis.client' name='alfresco-opencmis-extension' version='0.2' />
+      <dependency group='org.apache.chemistry.opencmis' name='chemistry-opencmis-commons-impl' version='0.6.0' />
       <dependency group='org.apache.abdera' name='abdera-extensions-html' version='0.4.0-incubating' />
     </compile>
   </dependencies>
